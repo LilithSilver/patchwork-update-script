@@ -1,0 +1,1 @@
+.\godot_editor\godot.windows.editor.x86_64.exe -e --path "."
