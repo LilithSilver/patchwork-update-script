@@ -33,10 +33,10 @@ jobs:
           copy .gitignore.template artifacts\.gitignore
 
       - name: Upload artifacts
-        uses: actions/upload-artifact@v4        
-        include-hidden-files: true
+        uses: actions/upload-artifact@v4    
         with:
           name: patchwork-exes
+          include-hidden-files: true
           path: artifacts
 
       - name: Upload to release
