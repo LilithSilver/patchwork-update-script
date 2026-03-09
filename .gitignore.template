@@ -1,3 +1,5 @@
 /addons/patchwork/
 /godot_editor/
 .patchwork_version
+launch-patchwork.exe
+update-patchwork.exe
